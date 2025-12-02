@@ -34,7 +34,7 @@ func main() {
 	}
 }
 
-func runDay(day int, solve func(string) (interface{}, interface{})) {
+func runDay(day int, solve func(string) (any, any)) {
 	inputFile := fmt.Sprintf("inputs/day%02d.txt", day)
 
 	part1, part2 := solve(inputFile)
