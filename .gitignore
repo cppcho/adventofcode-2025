@@ -23,3 +23,6 @@ go.work.sum
 
 # env file
 .env
+
+# Puzzle inputs (per Advent of Code's request)
+inputs/
